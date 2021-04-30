@@ -12,9 +12,11 @@ $ cd frontend
 $ npm install
 ```
 
-## start backend development server
+## migrate database and start backend development server
 ```
 $ cd ..
+$ python3 manage.py makemigrations
+$ python3 manage.py migrate
 $ python3 manage.py runserver
 ```
 
